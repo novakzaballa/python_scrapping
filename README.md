@@ -5,6 +5,7 @@
 
 ```
 from gascrap import get_similar
+print(get_similar('homedepot.com'))
 ```
 
 Use get_similar(hostname) where hostname is string, to get a list of stores similar to hostname.
